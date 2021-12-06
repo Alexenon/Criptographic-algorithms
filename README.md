@@ -5,7 +5,7 @@ C programs that are used to encrypt and decrypt massive data
 ```
 gcc main.c -o main.exe
 ```
-**Call C file compiled**
+**Execute compiled file**
 ```
 main or main.exe
 ```
