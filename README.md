@@ -11,5 +11,5 @@ main or main.exe
 ```
 **Stop the program if fails**
 ```
- taskkill -im demo.exe -f
+ taskkill -im main.exe -f
 ```
