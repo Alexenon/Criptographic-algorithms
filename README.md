@@ -9,7 +9,7 @@ gcc main.c -o main.exe
 ```
 main or main.exe
 ```
-**Stop the program if fails**
+**Stop the program if it fails**
 ```
  taskkill -im main.exe -f
 ```
