@@ -27,8 +27,8 @@ int main(int argc, char *argv[]){
             VGM_encrypt_seed(msg);
         else if(strcmp(opt,"-Decr")==0)
             VGM_decrypt_seed(msg);
-        else if(strcmp(opt,"-Encrp")==0)
-            CSK_encrypt_plus(msg);
+        // else if(strcmp(opt,"-Encrp")==0)
+        //     CSK_encrypt_plus(msg);
         else{
             fprintf(stderr, "%s: illegal option: %s\n", prg, opt);
             exit(1);
